@@ -122,3 +122,185 @@ body {
 /* ================================
    RODAPÉ
 ================================= */
+/* ================================
+   PÁGINAS INTERNAS
+================================= */
+
+.conteudo-pagina {
+    padding: 120px 25px 60px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.conteudo-pagina h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004aad;
+}
+
+.conteudo-pagina p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+/* ================================
+   EQUIPE
+================================= */
+
+.grid-equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card-equipe {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-equipe:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.card-equipe img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-equipe h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #004aad;
+}
+
+.card-equipe p {
+    color: #555;
+}
+/* ================================
+   SERVIÇOS
+================================= */
+
+.grid-servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card-servico {
+    background: #fff;
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-servico:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.card-servico img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.card-servico h3 {
+    font-size: 20px;
+    color: #004aad;
+    margin-bottom: 8px;
+}
+
+.card-servico p {
+    font-size: 16px;
+    color: #444;
+}
+
+
+/* ================================
+   EVENTOS
+================================= */
+
+.galeria-eventos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.galeria-eventos img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    height: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.galeria-eventos img:hover {
+    transform: scale(1.05);
+}
+
+
+/* ================================
+   CONTATO
+================================= */
+
+.contato-box {
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.contato-box h2 {
+    color: #004aad;
+    margin-bottom: 12px;
+}
+
+.item-contato {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item-contato a {
+    color: #004aad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item-contato a:hover {
+    text-decoration: underline;
+}
+
+.botao-contato {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #004aad;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.botao-contato:hover {
+    background: #003b86;
+}
